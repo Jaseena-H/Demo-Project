@@ -41,6 +41,9 @@ public class PageUtility
 		select.selectByIndex(index);
 	}
 
+	
+	//Action Class Methods
+	
 	public void rightclick(WebElement elementname) {
 
 		Actions action = new Actions(driver);
