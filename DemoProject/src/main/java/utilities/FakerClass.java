@@ -31,4 +31,10 @@ public class FakerClass
  	public String generatePassword() { 
  		return faker.internet().password(); 
  	} 
+ 	
+ 	public String generatePhoneNumber()
+	{
+		return faker.phoneNumber().cellPhone();
+		
+	}
 }
