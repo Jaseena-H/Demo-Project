@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testscriptpackage2.LoginClass">
+      <class name="testscriptpackage2.ManageContactTest">
         <methods>
           <include name="browserInitialisation"/>
-          <include name="validcredentials"/>
+          <include name="verifyThatTheUserCanUpdateTheContactInfo"/>
+          <include name="browserQuit"/>
         </methods>
-      </class> <!-- testscriptpackage2.LoginClass -->
+      </class> <!-- testscriptpackage2.ManageContactTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
